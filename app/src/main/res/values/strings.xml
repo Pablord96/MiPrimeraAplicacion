@@ -3,5 +3,5 @@
     <string name="introduce_un_numero">Por favor, escribe un número.</string><string name="entrada_no_valida">Entrada no válida. Por favor, introduce solo números.</string>
     <string name="pista_mayor">El número secreto es mayor. Intentos: %1$d</string>
     <string name="pista_menor">El número secreto es menor. Intentos: %1$d</string>
-    <string name="mensaje_victoria">🎉 ¡Acertaste! El número era %1$d. Lo lograste en %2$d intentos.</string>
+    <string name="mensaje_victoria">¡Acertaste! El número era %1$d. Lo lograste en %2$d intentos.</string>
 </resources>
