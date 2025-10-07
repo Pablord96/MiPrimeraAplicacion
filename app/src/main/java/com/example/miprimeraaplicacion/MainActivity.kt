@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
                 numeroUsuario < numeroSecreto -> texto.text = "El número secreto es mayor. Intentos: $intentos"
                 numeroUsuario > numeroSecreto -> texto.text = "El número secreto es menor. Intentos: $intentos"
                 else -> {
-                    texto.text = "¡Acertaste! El número era $numeroSecreto. Lo lograste en $intentos intentos."
+                    texto.text = "Ole ole ¡Acertaste! El número era $numeroSecreto. Lo lograste en $intentos intentos."
                     // Reiniciar juego automáticamente
                     numeroSecreto = Random.nextInt(1, 101)
                     intentos = 0
